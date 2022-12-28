@@ -26,7 +26,7 @@ const ProjectDatas = [
 		path: "ecommerce",
 		image_alt: "E-commerce product page image",
 		technologies: ["NextJs", "Styled-Components", "Zustand", "Framer Motion"],
-		live: "https://github.com/Babacar-Ciss/ecommerce-product-page.git",
+		live: "https://ecommerce-product-page-24ke.vercel.app/",
 		github: "https://github.com/Babacar-Ciss/ecommerce-product-page.git",
 	},
 	{
