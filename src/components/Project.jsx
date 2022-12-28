@@ -7,7 +7,7 @@ import password_generator_image from "../assets/projects/password_generator.jpg"
 import officine_image from "../assets/projects/officine.jpg";
 import crowdfunding_image from "../assets/projects/crowfunding.jpg";
 import interactive_pricing_component_image from "../assets/projects/interactive_pricing_component.jpg";
-import gitHub_user_search_image from "../assets/projects/github_user_search.jpg";
+import github_user_search_image from "../assets/projects/github_user_search.jpg";
 import single_page_design_portfolio_image from "../assets/projects/single_page_design_portfolio.jpg";
 import tip_calculator_image from "../assets/projects/tip_calculator.jpg";
 import sunnyside_agency_landing_page_image from "../assets/projects/sunnyside_agency.jpg";
@@ -25,7 +25,7 @@ const Images = {
 	officine: officine_image,
 	crowdfunding: crowdfunding_image,
 	interactive_pricing_component: interactive_pricing_component_image,
-	gitHub_user_search: gitHub_user_search_image,
+	github_user_search: github_user_search_image,
 	single_page_design_portfolio: single_page_design_portfolio_image,
 	tip_calculator: tip_calculator_image,
 	sunnyside_agency_landing_page: sunnyside_agency_landing_page_image,
