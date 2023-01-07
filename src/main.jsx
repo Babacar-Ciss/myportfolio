@@ -17,7 +17,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Inter", sans-serif;
   }
 
- 
 `;
 
 ReactDOM.createRoot(document.getElementById("root")).render(

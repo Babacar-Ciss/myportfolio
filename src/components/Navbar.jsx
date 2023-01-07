@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CustomizedSwitches from "./SwitchThemeButton";
+import Store from "../store";
 
 const NavbarStyle = styled.nav`
 	color: ${({ theme }) => theme.color};
@@ -70,6 +71,11 @@ const LI = styled.li`
 `;
 
 export default function Navbar() {
+	const setIsAboutModalDisplay = Store((state) => state.setIsAboutModalDisplay);
+	const setIsContactModalDisplay = Store(
+		(state) => state.setIsContactModalDisplay
+	);
+
 	return (
 		<NavbarStyle>
 			<UL>
@@ -77,8 +83,8 @@ export default function Navbar() {
 				<LI>
 					<CustomizedSwitches />
 				</LI>
-				<LI> about me. </LI>
-				<LI> contact. </LI>
+				<LI onClick={() => setIsAboutModalDisplay()}> about me. </LI>
+				<LI onClick={() => setIsContactModalDisplay()}> contact. </LI>
 			</UL>
 		</NavbarStyle>
 	);

@@ -78,6 +78,14 @@ const Overlay = styled.div`
 			margin-bottom: 48px;
 		}
 	}
+
+	@media (min-width: 768px) and (max-width: 1439px) {
+		display: none;
+	}
+
+	@media (min-width: 375px) and (max-width: 767px) {
+		display: none;
+	}
 `;
 
 const ProjectImage = styled.img`

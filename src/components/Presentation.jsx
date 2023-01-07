@@ -40,6 +40,7 @@ const GreetingParagraph = styled.p`
 
 	@media (min-width: 375px) and (max-width: 767px) {
 		margin-bottom: 25px;
+		font-size: 11px;
 	}
 `;
 

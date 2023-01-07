@@ -6,11 +6,6 @@ const FooterStyle = styled.footer`
 	flex-direction: column;
 	align-items: center;
 	color: ${({ theme }) => theme.color};
-	margin-bottom: 47px;
-
-	@media (min-width: 768px) and (max-width: 1439px) {
-		margin-bottom: 100px;
-	}
 `;
 
 const AvailableStatus = styled.div`

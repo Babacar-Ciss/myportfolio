@@ -190,7 +190,7 @@ const Container = styled.div`
 
 	@media (min-width: 768px) and (max-width: 1439px) {
 		grid-template-columns: repeat(2, auto);
-		column-gap: 4%;
+		column-gap: 22px;
 	}
 
 	@media (min-width: 375px) and (max-width: 767px) {
