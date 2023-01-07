@@ -15,7 +15,7 @@ const ConatctStyle = styled.div`
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 120%;
+	height: 100%;
 	background-color: #56b381;
 `;
 
@@ -211,7 +211,8 @@ const ContactForm = styled.form`
 		border-bottom: 1px solid
 			${({ isEmailCorrect, emailWatchValue }) =>
 				isEmailCorrect || emailWatchValue === "" ? "#7ecda3" : "#ff1e00"};
-		margin-bottom: 0px;
+		margin-bottom: ${({ isEmailCorrect }) =>
+			!isEmailCorrect ? "37px" : "0px"};
 
 		+ label {
 			margin-top: 5px;
